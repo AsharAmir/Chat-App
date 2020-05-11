@@ -11,7 +11,7 @@ from wtforms_fields import *
 app = Flask(__name__)
 app.secret_key = 'replace'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://karvmctpptpfsj:35f4c4a84695185a2f2372357eeb6540daf3c22e28b6e6cfa87dfde4f916c03b@ec2-52-44-166-58.compute-1.amazonaws.com:5432/d28ff46qf0u724"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgres url here owo"
 db = SQLAlchemy(app)
 
 db.create_all()
